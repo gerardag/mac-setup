@@ -11,7 +11,7 @@ El gestor de paquets és el primer que sempre instal·lo. Simplement seguint els
 brew tap buo/cask-upgrade
 ```
 
-## Mac App Store
+## Mac App Store
 
 CLI per poder descarregar aplicacions directament des de la terminal. Només cal instal·lar-lo i ja està.
 
