@@ -19,7 +19,7 @@ CLI per poder descarregar aplicacions directament des de la terminal. Només cal
 brew install mas
 ```
 
-## Llista d'aplicacions a instal·lar
+## Llista d'aplicacions a instal·lar
 
 Un cop instal·lat Homebrew, és el moment de descarregar les aplicacions que necessitem. La llista d’aplicacions és la següent:
 
