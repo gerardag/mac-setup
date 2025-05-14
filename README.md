@@ -28,7 +28,7 @@ Un cop instal·lat Homebrew, és el moment de descarregar les aplicacions que ne
 ### Terminal i relacionats
 
 ```bash
-brew install --cask \
+brew install \
   hyper \
   starship \
   wget \
@@ -41,20 +41,20 @@ brew install --cask \
 ### Navegadors
 
 ```bash
-brew install --cask \
+brew install \
   firefox \
-  google-chrome \
+  google-chrome
 ```
 
 ### Desenvolupament
 
 ```bash
-brew install --cask \
+brew install \
   charles \
   packer \
   proxyman \
   terraform \
-  visual-studio-code \
+  visual-studio-code
 
 # Tailscale and nextdns
 brew install nextdns
@@ -64,8 +64,7 @@ brew install tailscale
 ### Utilitats
 
 ```bash
-brew install --cask \
-  alacritty \
+brew install \
   appcleaner \
   bitwarden \
   discord \
@@ -76,7 +75,7 @@ brew install --cask \
   raycast \
   spotify \
   the-unarchiver \
-  vlc \
+  vlc
 ```
 
 ```bash
@@ -93,5 +92,5 @@ https://icemenubar.app/
 ### Fonts
 
 ```bash
-brew install --cask font-inter
+brew install font-inter
 ```
