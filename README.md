@@ -11,12 +11,13 @@ El gestor de paquets és el primer que sempre instal·lo. Simplement seguint els
 brew tap buo/cask-upgrade
 ```
 
-## Mac App Store
+## Mac App Store and Git
 
 CLI per poder descarregar aplicacions directament des de la terminal. Només cal instal·lar-lo i ja està.
 
 ```bash
 brew install mas
+brew install git
 ```
 
 ## Llista d'aplicacions a instal·lar
@@ -28,7 +29,6 @@ Un cop instal·lat Homebrew, és el moment de descarregar les aplicacions que ne
 
 ```bash
 brew install --cask \
-  git \
   hyper \
   starship \
   wget \
