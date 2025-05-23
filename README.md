@@ -27,36 +27,46 @@ Un cop instal·lat Homebrew, és el moment de descarregar les aplicacions que ne
 ### Terminal i relacionats
 
 ```bash
-brew install --cask \
-  git \
-  hyper \
-  starship \
-  wget \
-  zsh \
-  zsh-completions \
-  zsh-autosuggestions \
-  zsh-syntax-highlighting \
+# Git
+brew install git
+
+# Terminal
+brew install hyper
+brew install warp
+
+# Add-ons de la terminal
+brew install starship
+brew install wget
+brew install zsh
+brew install zsh-completions
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 ```
 
 ### Navegadors
 
 ```bash
-brew install --cask \
-  firefox \
-  google-chrome \
+# Navegadors
+brew install brave-browser
+brew install firefox
+brew install google-chrome
 ```
 
 ### Desenvolupament
 
 ```bash
-brew install --cask \
-  charles \
-  packer \
-  proxyman \
-  terraform \
-  visual-studio-code \
+# Proxies
+brew install charles
+brew install proxyman
 
-# Tailscale and nextdns
+# DevOps
+brew install packer
+brew install terraform
+
+# IDEs
+brew install visual-studio-code
+
+# VPN
 brew install nextdns
 brew install tailscale
 ```
@@ -64,24 +74,35 @@ brew install tailscale
 ### Utilitats
 
 ```bash
-brew install --cask \
-  alacritty \
-  appcleaner \
-  bitwarden \
-  discord \
-  figma \
-  kap \
-  obsidian \
-  orcaslicer
-  raycast \
-  spotify \
-  the-unarchiver \
-  vlc \
-```
+brew install appcleaner
+brew install bitwarden
 
-```bash
+# Missatgeria
+brew install discord
+
+# Screen recording
+brew install kap
+
+# Productivitat i notes
+brew install meetingbar
+brew install notion
+brew install obsidian
+brew install raycast
+
+# Slicer impressora 3D
+brew install orcaslicer
+
+# Disseny
 # Pixelmator
 mas install 1289583905
+brew install figma
+
+# Unarchiver
+brew install the-unarchiver
+
+# Audio i video
+brew install spotify
+brew install vlc
 ```
 
 El gestor de la barra de menus no es pot instal·lar des de brew així que toca descarregar-lo manualment:
