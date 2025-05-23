@@ -58,6 +58,9 @@ brew install google-chrome
 brew install charles
 brew install proxyman
 
+# Hugo
+brew install hugo
+
 # DevOps
 brew install packer
 brew install terraform
