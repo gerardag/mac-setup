@@ -1,25 +1,24 @@
 # Configuració de Mac OS X
 
-Davant la configuració d’una nova màquina (o la necessitat de tornar a instal·lar desrpés de formatejar), aquí hi ha una llista molt breu i bàsica dels sospitosos habituals, relacionada amb la configuració d’un ordinador Mac per desenvolupar i frikejar.
+Quan haig de configurar un nou mac (o un que hem formatejat), aquí tinc la llista de les aplicacions bàsiques que necessitaré tenir-hi instal·lades.
 
-## Homebrew i Cask
+## Homebrew
 
-El gestor de paquets és el primer que sempre instal·lo. Simplement seguint els passos indicats. Descàrrega i instal·la les eines de la línia d’ordres per a Xcode. Homebrew Cask s’implementa com a part de Homebrew, de manera que estan habilitats des del primer moment. Finalment, Brew-Cask-Upgrade proporciona capacitats similars a la actualització a Cask, i estem tots preparats.
+El gestor de paquest és el primer que instal·lo, ja que és l'eina bàsica per instal·lar la resta de les aplicacions.
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew tap buo/cask-upgrade
 ```
 
 ## Mac App Store
 
-CLI per poder descarregar aplicacions directament des de la terminal. Només cal instal·lar-lo i ja està.
+CLI per poder descarregar aplicacions directament des de la terminal sempre que hagin estat comprades previament a la Mac App Store.
 
 ```bash
 brew install mas
 ```
 
-## Llista d'aplicacions a instal·lar
+## Llistat d'aplicacions
 
 Un cop instal·lat Homebrew, és el moment de descarregar les aplicacions que necessitem. La llista d’aplicacions és la següent:
 
