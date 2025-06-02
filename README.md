@@ -58,6 +58,9 @@ brew install google-chrome
 brew install charles
 brew install proxyman
 
+# API Client
+brew install --cask yaak
+
 # Hugo
 brew install hugo
 
