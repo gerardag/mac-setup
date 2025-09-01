@@ -54,6 +54,10 @@ brew install google-chrome
 ### Desenvolupament
 
 ```bash
+#
+brew install node
+brew install yarn
+
 # Proxies
 brew install charles
 brew install proxyman
