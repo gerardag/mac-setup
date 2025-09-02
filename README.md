@@ -57,6 +57,7 @@ brew install google-chrome
 #
 brew install node
 brew install yarn
+brew install derailed/k9s/k9s
 
 # Proxies
 brew install charles
@@ -64,6 +65,7 @@ brew install proxyman
 
 # API Client
 brew install --cask yaak
+brew install --cask postman
 
 # Hugo
 brew install hugo
