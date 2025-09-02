@@ -31,6 +31,7 @@ brew install gnupg gnupg2
 
 # Git
 brew install git
+brew install git-secret
 
 # Terminal
 brew install hyper
