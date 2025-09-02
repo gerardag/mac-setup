@@ -26,6 +26,9 @@ Un cop instal·lat Homebrew, és el moment de descarregar les aplicacions que ne
 ### Terminal i relacionats
 
 ```bash
+# GPG
+brew install gnupg gnupg2
+
 # Git
 brew install git
 
@@ -126,4 +129,5 @@ https://icemenubar.app/
 
 ```bash
 brew install --cask font-inter
+brew install --cask font-fira-code-nerd-font
 ```
