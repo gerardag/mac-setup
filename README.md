@@ -62,6 +62,8 @@ brew install google-chrome
 brew install node
 brew install yarn
 brew install derailed/k9s/k9s
+brew install kubectl
+brew install kubie
 
 # Proxies
 brew install charles
