@@ -120,6 +120,14 @@ brew install the-unarchiver
 # Audio i video
 brew install spotify
 brew install vlc
+
+# Varis
+# Balena etcher
+brew install --cask balenaetcher
+
+# Raspberry pi imager
+brew install --cask raspberry-pi-imager
+
 ```
 
 El gestor de la barra de menus no es pot instal·lar des de brew així que toca descarregar-lo manualment:
